@@ -32,9 +32,9 @@ git clone https://github.com/ternarydata/DevopsDays-Airflow-Workshop.git
 
 14. Try selecting _Graph View_ to understand DAG dependencies.
 
-15. Next, we'll backfill the DAG to the beginnning of the month. Open the Google Cloud Shell. Make sure you are in the right project. Run the following to backfill to May 1st.
+15. Next, we'll backfill the DAG to the beginnning of the month. Open the Google Cloud Shell. Make sure you are in the right project. Run the following to backfill to June 1st.
 ```
-gcloud composer environments run --location us-central1 workshop-environment backfill -- workshop_dag -s 2019-05-01 -e 2019-05-14
+gcloud composer environments run --location us-central1 workshop-environment backfill -- workshop_dag -s 2019-06-01 -e 2019-06-11
 ```
 
 16. Return to the task tree view to watch the tasks kick off and complete. Click the _refresh_ button on the page rather than refreshing the browser will force the web server to refresh and show you the latest data.
