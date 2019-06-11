@@ -1,7 +1,7 @@
 # Flow Factor Airflow Demo
 Guide for the Airflow Demo given in the data agility workshop at Flow Factor 2019.
 
-1. Open the [GCP console](https://console.cloud.google.com). Create an account if necessary. If this is your first time using GCP with this account, you should access to $300 of credit. Otherwise, the costs for working through these examples should be minimal. Just be sure to tear down all resources when you're done.
+1. Open the [GCP console](https://console.cloud.google.com). Create an account if necessary. If this is your first time using GCP with this account, you should have access to $300 of credit. Otherwise, the costs for working through these examples should be minimal. Just be sure to tear down all resources when you're done.
 
 2. Create a new project. (This will facilitate easy cleanup when we're done.) Name your project something like `airflow-workshop-project`.
 
