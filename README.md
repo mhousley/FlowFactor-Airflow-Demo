@@ -20,7 +20,7 @@ Guide for the Airflow Demo given in the data agility workshop at Flow Factor 201
 git clone https://github.com/ternarydata/DevopsDays-Airflow-Workshop.git
 ```
 
-9. In the repo, you'll find three different version of the main DAG file, `workshop-example.py`. These are appeded with 0 through 3 to indicate the different versions.
+9. In the repo, you'll find three different version of the main DAG file, `workshop-example.py`. These are appended with 0 through 3 to indicate the different versions.
 
 10. Copy `workshop-example.py.0` to `workshop-example.py`. Click on _DAGs Folder_ in the Cloud Composer console to bring up the GCS bucket containing the Airflow DAGs. Drag and drop `workshop-example.py` into the bucket.
 
